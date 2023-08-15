@@ -1,0 +1,28 @@
+﻿@model List<SingleMovieModel>
+
+@{
+    if(Model != null)
+    {
+        foreach(SingleMovieModel m in Model)
+        {
+        <h3>@m.Title</h3>
+        <p>@m.Year</p>
+        <p>@m.Genre</p>
+        <img src="@m.Poster"></img>
+        }
+    }
+}
+
+
+
+
+<form asp-method="post" asp-action="MovieNightResults">
+    <h3>Enter Three Movie Titles</h3>
+    <input type="text" name="title1"/>
+    <br />
+    <input type="text" name="title2"/>
+    <br />
+    <input type="text" name="title3"/>
+
+    <input type="submit"/>
+</form>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMDB Lab", "OMDB Lab\OMDB Lab.csproj", "{FD2987C4-4F3F-4FFE-84C9-ACCBEB93B3AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD2987C4-4F3F-4FFE-84C9-ACCBEB93B3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2987C4-4F3F-4FFE-84C9-ACCBEB93B3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2987C4-4F3F-4FFE-84C9-ACCBEB93B3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2987C4-4F3F-4FFE-84C9-ACCBEB93B3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43B8F445-A059-4FAB-9680-D68152B5ED85}
+	EndGlobalSection
+EndGlobal
